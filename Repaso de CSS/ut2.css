@@ -1,0 +1,169 @@
+/*1*/
+#colores-fondos h2 {
+    color: rgb(24, 94, 6);
+    background-color: rgb(7, 249, 253);
+}
+
+#colores-fondos p {
+    color: blue;
+    background-color: pink;
+}
+/*2*/
+#tipografia h2 {
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#tipografia h3 {
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#tipografia p {
+
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size:xx-large;
+}
+/*3*/
+#espaciado li{
+
+margin-bottom: 5px;
+
+}
+#espaciado{
+text-align: center;
+
+}
+/*4*/
+
+#bordes-sombras {
+border: solid;
+border-radius: 20px;
+box-shadow: 5px 5px gold;
+
+}
+/*5*/
+#posicionamiento h2{
+
+    position:absolute;
+
+}
+#posicionamiento div{
+
+    position:relative;
+
+}
+/*6*/
+#productos li{
+    list-style-type: none;
+    list-style-image: url(https://img.icons8.com/?size=50&id=oTQE7gyBVQT7&format=png);
+    list-style-position: inside;
+    }
+/*7*/
+#botones button {
+
+    background-color: rgb(125, 125, 255);
+    color:pink;
+    border-radius: 20px;
+
+}
+/*8*/
+#tablas table {
+
+border-collapse: separate;
+padding-left: 40px;
+text-align: center;
+border: solid blueviolet;
+
+}
+#tablas th {
+
+    text-align: center;
+    color: crimson;
+    
+    }
+    #tablas td {
+
+        text-align: center;
+        color:peru;
+        
+        }
+/*9*/
+
+#contenedor li{
+
+margin-left: 60px;
+padding: 20px;
+
+}
+
+/*10*/
+
+#imagenes img {
+
+    border-color: brown;
+    border-radius: 20px;
+    margin-left: 40%;
+}
+
+/*11*/
+
+#formulario input {
+
+border-radius: 30px;
+
+}
+#formulario textarea {
+
+    border-radius: 20px;
+    background-color: blueviolet;
+    text-decoration: cadetblue;
+    }
+    #formulario button {
+
+        border-radius: 20px;
+        background-color: blueviolet;
+        text-decoration: rgb(21, 247, 255);
+        }
+        /*12*/
+
+#enlaces li {
+color: aqua;
+text-decoration: chartreuse;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#efectos-texto h2{
+
+color:rgb(76, 76, 39);
+
+}
+#efectos-texto h3{
+    color: blue ;}
+
+    #efectos-texto p{
+        color:deeppink;}
+#elementos-linea h2{
+
+    text-align: center;
+    background-color: darkorange;
+    color: turquoise;
+
+}
+.elemento img{
+
+ list-style-type: none;
+    list-style-image: url(https://i.ytimg.com/vi/VKWhjEZ4Bgc/mqdefault.jpg);
+    list-style-position: inside;
+}
+
+.elemento p {
+
+color: aqua;
+border: solid;
+border-color: springgreen;
+
+}
