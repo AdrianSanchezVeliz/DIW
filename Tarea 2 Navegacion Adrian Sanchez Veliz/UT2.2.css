@@ -1,0 +1,75 @@
+.cta-container {
+
+    background-image: url(./fondo.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    padding: 60px 0px 60px 0px;
+
+
+}
+
+.cta-text {
+
+    color: cornsilk;
+    font-size: 28px;
+    font-weight: 10000;
+
+}
+
+.cta-button {
+
+    background-color: #626bb2;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+nav ul li {
+
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    border: solid 1px;
+    border-color: #336699;
+    color: white;
+    background-color: black;
+    list-style: none;
+    font-size: 20px;
+    padding: 4px 8px 4px 8px;
+}
+
+
+li:hover {
+
+    background-color: #336699;
+}
+
+div a {
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #0095eb;
+    font-weight: bold;
+
+}
+
+div a:hover {
+    color: #006196;
+    text-decoration: underline;
+}
+
+.right {
+
+    float: right;
+}
+
+.left {
+    float: left;
+
+}
