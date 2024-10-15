@@ -1,0 +1,149 @@
+
+
+/*activar la propiedad flex*/
+ /*flex-flow:row colocacion en linea y hacia abajo*/
+/*gap: 4px; la misma para ambas*/
+/*gap: 4px 8px para celdas y columnas*/
+/*enviar los items abajo*/
+/*para poner los items en el centro*/
+/*
+Ejercicio1
+.contenedor_flex{
+
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    row-gap: 4px; 
+    column-gap: 4px; 
+    align-items: end;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    
+}
+.flex-item{
+
+    background-color: cornflowerblue;
+    height: 50px;
+    
+}
+*/
+/*
+Ejercicio2
+.contenedor_flex{
+
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row; 
+    row-gap: 4px; 
+    column-gap: 4px; 
+    align-items:start;
+    justify-content:space-around;
+    height: 300px;
+    width: 500px;
+    
+}
+.flex-item{
+
+    background-color: cornflowerblue;
+    height: 50px;
+    
+}*/
+/*
+Ejercicio3
+.contenedor_flex{
+
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column-reverse; 
+    row-gap: 4px; 
+    column-gap: 4px; 
+    align-items:stretch;
+    justify-content:space-evenly;
+    height: 300px;
+    width: 500px;
+    
+}
+.flex-item{
+
+    background-color: cornflowerblue;
+    height: 50px;
+    
+}*/
+/*
+Ejercicio4
+
+.contenedor_flex{
+
+    background-color: lightgrey;
+    display: flex;
+    flex-direction:row; 
+    row-gap: 4px; 
+    column-gap: 4px; 
+    align-items:stretch;
+    justify-content:center;
+    height: 300px;
+    width: 500px;
+    
+}
+.flex-item{
+
+    background-color: cornflowerblue;
+  
+    
+}*/
+/*
+
+---Ejercicio 5
+.contenedor_flex{
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-evenly;
+    row-gap: 4px; 
+    column-gap: 6px;
+    align-items:center;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: 500px;
+
+        
+}
+.flex-item:hover{
+
+    background-color: rgb(230, 77, 230);
+    flex-grow: 2;
+    transition: 2s;
+
+}
+.flex-item{
+
+    background-color: cornflowerblue;
+    height:50px ;
+  
+    
+}*/
+
+/*
+--Ejercicio6
+.contenedor_flex{
+    display: flex;
+    background-color: lightgrey;
+
+    row-gap: 4px; 
+    column-gap: 15px;
+    align-items:center;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: 500px;
+    flex-wrap: wrap;
+        
+}
+
+.flex-item{
+
+    background-color: cornflowerblue;
+    height:50px ;
+  
+    
+}
+*/
