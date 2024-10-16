@@ -27,15 +27,15 @@ height: 100%;
 }
 .cabecera{
 
-margin: 0%;
+margin: auto;
     width: 90%;
     max-width: 1200px;
+    height: var(--altura-nav);
+ 
 }
 .cabeceraInicio{
     background-color: #239b56;
     color: white;
-    
-    height: var(--altura-nav);
     
 
 
