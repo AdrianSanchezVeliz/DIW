@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.caja {
+
+
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width:70% ;
+    column-gap: 10%;
+
+
+
+
+}
+
+.tarjeta__elemento {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 10px 20px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 10px 20px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 10px 20px -1px rgba(0, 0, 0, 0.75);
+    flex-basis: 30%;
+    width: 10%;
+    height: 600px;
+}
+
+img {
+    width: 150px;
+    
+
+}
+
+.textoTitulo {
+
+    color: #1E8449;
+    text-align: center;
+
+}
+
+.textoParrafo {
+
+    text-align: center;
+
+
+}
+
+.boton {
+
+    text-decoration: none;
+    color: white;
+    background-color: #1E8449;
+    height: 2vw;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px ;
+}
