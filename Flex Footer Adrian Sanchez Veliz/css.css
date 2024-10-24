@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+body{
+background-color: rgb(236, 235, 235);
+
+
+}
+
+.general {
+
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+height: 100vh;
+
+}
+
+.enlaces {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.enlaces :hover{
+
+text-decoration: underline;
+}
+
+.caja {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    background-color: #555;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+
+}
+
+h2{
+
+color: white;
+
+}
+
+p{
+
+display: flex;
+flex-flow: column;
+
+}
+
+.texto{
+
+text-align: center;
+
+}
+
+.texto h1{
+
+margin-bottom: 2.5vw;
+
+}
