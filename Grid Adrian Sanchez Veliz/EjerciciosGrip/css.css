@@ -26,7 +26,7 @@
 
 
 
-    /* EJERCICIO1
+    /* EJERCICIO1*/
    grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
         "area1 area2 area3"
@@ -34,10 +34,11 @@
         "area7 area8 area9"
     ;
     grid-template-rows: 40px 40px 40px;
-*/
+
 
     /*
-EJERCICIO2
+EJERCICIO2*/
+/*
  grid-template-columns: repeat(3, 1fr);
 grid-template-areas:
 "area1 area1 area1"
@@ -49,6 +50,8 @@ grid-template-rows: 40px 40px 40px 40px;*/
 
     /*  
 EJERCICIO3
+*/
+/*
  grid-template-columns: repeat(3, 1fr);
 grid-template-areas:
         "area1 area1 area1"
@@ -59,7 +62,8 @@ grid-template-areas:
     ;
     grid-template-rows: 40px 40px 40px 40px 40px;*/
 
-    /* EJERCICIO 4
+    /* EJERCICIO 4*/
+    /*
  grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
     "area1 area1 area1"
@@ -73,7 +77,8 @@ grid-template-rows: 40px 40px 40px;
 */
 
 
-    /*EJERCICIO 5
+    /*EJERCICIO 5*/
+    /*
  grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     
@@ -91,8 +96,8 @@ grid-template-rows: 40px 40px 40px;
     /*EJERCICIO 6*/
 
 
-    grid-template-columns: repeat(3, 1fr);
-
+   /* grid-template-columns: repeat(3, 1fr);
+*/
 
 
     /*EJERCICIO 7*/
@@ -127,7 +132,7 @@ grid-template-columns: repeat(4, 1fr);
     border-radius: 5px;
 }
 
-/*.celda1 {
+.celda1 {
 
 
     grid-area: area1;
@@ -181,10 +186,10 @@ grid-template-columns: repeat(4, 1fr);
 
     grid-area: area9;
 }
-*/
+
 
 /*PARA EJERCICIO 6*/
-.celda1 {
+/*.celda1 {
 
     order: 6;
 
@@ -218,7 +223,7 @@ grid-template-columns: repeat(4, 1fr);
 
     order: 5;
 }
-
+*/
 
 .textoCelda {
 
