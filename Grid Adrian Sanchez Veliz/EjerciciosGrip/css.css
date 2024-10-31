@@ -1,0 +1,227 @@
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.textoCelda {
+    padding: 10px 10px 10px 10px;
+
+}
+
+.contenedor {
+
+    display: grid;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    border-color: #f76707;
+    width: 450px;
+    margin-left: 37%;
+
+
+
+
+
+
+    /* EJERCICIO1
+   grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+        "area1 area2 area3"
+        "area4 area5 area6"
+        "area7 area8 area9"
+    ;
+    grid-template-rows: 40px 40px 40px;
+*/
+
+    /*
+EJERCICIO2
+ grid-template-columns: repeat(3, 1fr);
+grid-template-areas:
+"area1 area1 area1"
+"area2 area3 area4"
+"area5 area6 area7"
+"area8 area9 ."
+;
+grid-template-rows: 40px 40px 40px 40px;*/
+
+    /*  
+EJERCICIO3
+ grid-template-columns: repeat(3, 1fr);
+grid-template-areas:
+        "area1 area1 area1"
+        "area2 area3 area4"
+        "area2 area5 area6"
+        "area2 area7 area8"
+        "area2 area9 ."
+    ;
+    grid-template-rows: 40px 40px 40px 40px 40px;*/
+
+    /* EJERCICIO 4
+ grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "area1 area1 area1"
+    "area2 area3 area4"
+    "area2 area5 area6"
+    
+;
+grid-template-rows: 40px 40px 40px;
+
+
+*/
+
+
+    /*EJERCICIO 5
+ grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    
+    "area1 area1 area2 area2"
+    "area3 area4 area4 area4"
+    "area5 area5 area6 area6"
+    
+;
+
+
+
+*/
+
+
+    /*EJERCICIO 6*/
+
+
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+    /*EJERCICIO 7*/
+
+    /* 
+     grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+
+    ". area1 area1 "
+    "area2  area3 area3"
+     "area4 area4 area4 "
+    ;*/
+
+
+
+    /*EJERCICIO 8*/
+    /*
+grid-template-columns: repeat(4, 1fr);
+   grid-template-areas:
+    "area1 area1 area4 area4"
+    "area2 area2 area5 area5"
+    "area3 area3 area6 area6"
+    ;
+*/
+
+}
+
+.celda {
+    background-color: #ffd8a8;
+    border: solid;
+    border-color: #ffa94d;
+    border-radius: 5px;
+}
+
+/*.celda1 {
+
+
+    grid-area: area1;
+
+
+
+}
+
+.celda2 {
+
+    grid-area: area2;
+}
+
+.celda3 {
+
+
+    grid-area: area3;
+    ;
+}
+
+.celda4 {
+
+    grid-area: area4;
+    ;
+}
+
+.celda5 {
+
+    grid-area: area5;
+
+
+}
+
+.celda6 {
+
+    grid-area: area6;
+}
+
+.celda7 {
+
+
+    grid-area: area7;
+}
+
+.celda8 {
+
+    grid-area: area8;
+}
+
+.celda9 {
+
+    grid-area: area9;
+}
+*/
+
+/*PARA EJERCICIO 6*/
+.celda1 {
+
+    order: 6;
+
+
+}
+
+.celda2 {
+
+    order: 1;
+}
+
+.celda3 {
+
+
+    order: 2;
+}
+
+.celda4 {
+
+    order: 3;
+}
+
+.celda5 {
+
+    order: 4;
+
+
+}
+
+.celda6 {
+
+    order: 5;
+}
+
+
+.textoCelda {
+
+    color: #d9480f;
+
+}
