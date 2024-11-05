@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    height: 500px;
+
+}
+
+body {
+    background-color: #1d212d;
+
+}
+
+.contenedor-conciertos {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.card {
+
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+
+}
+
+.textos {
+    margin-left: 17px;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+
+.banner {
+    color: white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url('./img/banner.jpg');
+
+}
+
+.banner ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+    text-align: center;
+
+}
+
+.boton {
+    background-color: yellow;
+    border-radius: 20px;
+    width: 90%;
+    padding: 10px 10px;
+
+}
+
+.boton:hover {
+
+    background-color: chocolate;
+    color: white;
+    transition: 0.5s;
+}
+
+#card1 {
+
+    background-image: url('./img/1.jpg');
+
+}
+
+#card2 {
+
+    background-image: url('./img/2.jpg');
+
+}
+
+#card3 {
+
+    background-image: url('./img/3.jpg');
+
+}
+
+#card4 {
+
+    background-image: url('./img/4.jpg');
+
+}
+
+#card5 {
+
+    background-image: url('./img/5.jpg');
+
+}
+
+#card6 {
+
+    background-image: url('./img/6.jpg');
+
+}
