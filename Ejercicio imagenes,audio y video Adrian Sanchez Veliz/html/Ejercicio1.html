@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cssEjercicio1.css">
+    <title>Document</title>
+</head>
+
+<body>
+Imagen1
+    <figure>
+        <img src="../imagenes/imagenesEjercicio1/hojas.jpg" alt="Imagen 800x600" class="imagenes imagen1">
+        <figcaption>Imagen 800x600</figcaption>
+    </figure>
+
+    <picture>
+        <source srcset="../imagenes/imagenesEjercicio1/plantaMuelle.webp" type="image/webp" />
+        <source srcset="../imagenes/imagenesEjercicio1/plantaMuelle.png" type="image/png" />
+        <img src="../imagenes/imagenesEjercicio1/plantaMuelle.jpg" alt="" class="imagenes imagen2" />
+        <figcaption>Revisa el formato de la imagen</figcaption>
+    </picture>
+
+    <picture>
+        <source srcset="../imagenes/imagenesEjercicio1/campoPeque.jpg" media="(max-width:350px)" />
+        <source srcset="../imagenes/imagenesEjercicio1/campoMediano.jpg" media="(min-width:351px) and (max-width:1023px)" />
+        <img src="../imagenes/imagenesEjercicio1/campoGrande.jpg" media="(min-width:1024px)" />
+    </picture>
+</body>
+
+</html>
