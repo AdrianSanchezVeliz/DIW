@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+    <div id="formulario">
+        <form action="">
+
+
+            <div><label id="textoNombre" class="textos"> Nombre: </label></div>
+            <div><input type="text" id="cajaNombre" class="campos" name="nombre" placeholder="Escribe tu usuario"
+                    pattern="[A-Za-z]{2,12}"></div>
+            <div> <label for="" id="textoPassword" class="textos"> Password: </label></div>
+            <div><input type="password" id="cajaPassword" class="campos" name="password"
+                    placeholder="titular de la consulta"></div>
+            <div><label for="" id="textoEmail" class="textos">Email:</label> </div>
+            <div><input type="email" id="cajaEmail" class="campos" name="email" placeholder="Email" required></div>
+            <div> <label for="" id="textoTelefono" class="textos">Teléfono: </label></div>
+            <div><input type="tel" id="cajaTelefono" class="campos" name="telefono" placeholder="+34 666 777 888">
+            </div>
+            <div><label for="" id="textoURL" class="textos">URL:</label> </div>
+            <div><input type="url" id="cajaURL" name="url" class="campos" placeholder="http://dominio.com"></div>
+            <div> <label for="" id="textoEdad" class="textos">Edad:</label> </div>
+            <div><input type="number" id="cajaEdad" name="edad" class="campos" placeholder="Edad" min="18" max="100"></div>
+            <div><label for="" id="textoFecha" class="textos">Fecha de nacimiento:</label></div>
+            <div> <input type="date" id="cajaFecha" class="campos" name="fecha" placeholder="fecha de nacimiento"></div>
+            <div><label for="" id="textoMensaje" class="textos">Mensaje: </label></div>
+            <div><textarea id="cajaMensaje" id="mensaje" placeholder="Escribe brevemente en menos de 300 caracteres"
+                    maxlength="300"></textarea></div>
+            <button id="enviar" name="enviar"><label for="">Enviar datos</label></button>
+
+        </form>
+    </div>
+</body>
+
+</html>

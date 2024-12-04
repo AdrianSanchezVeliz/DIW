@@ -1,0 +1,122 @@
+#formulario {
+    width: 300px;
+    padding: 16px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin: auto;
+    font-weight: bold;
+}
+
+.campos {
+
+    width: 180px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+label{
+margin-top: 10px;
+
+}
+#cajaMensaje {
+
+    width: 100%;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    height: 100px;
+    resize: none;
+
+
+}
+
+#enviar {
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 15px;
+}
+
+#enviar:hover {
+
+    cursor: pointer;
+}
+
+p:hover {
+    background-color: aquamarine;
+
+}
+
+input:out-of-range {
+    border: 2px solid red;
+    background-color: pink;
+}
+
+#cajaNombre:invalid {
+    border: 2px solid red;
+    background-color: pink;
+
+}
+
+
+#textoNombre {
+    float: left;
+}
+#cajaNombre{
+float: right;
+
+}
+#textoPassword {
+    float: left;
+    
+}
+#cajaPassword{
+float: right;
+
+}
+#textoEmail {
+    float: left;
+}
+#cajaEmail{
+float: right;
+
+}
+#textoTelefono {
+    float: left;
+}
+#cajaTelefono{
+float: right;
+
+}
+#textoURL {
+    float: left;
+    width: 100px;
+}
+#cajaURL{
+float: right;
+
+}
+#textoEdad {
+    float: left;
+}
+#cajaEdad{
+float: right;
+
+}
+#textoFecha {
+    float: left;
+    position: relative;
+}
+#cajaFecha{
+float: right;
+
+}
+#textoMensaje{
+    float: left;
+    width: 300px;
+
+}
