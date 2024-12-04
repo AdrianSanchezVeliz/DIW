@@ -46,7 +46,7 @@ margin-top: 10px;
     cursor: pointer;
 }
 
-p:hover {
+label:hover {
     background-color: aquamarine;
 
 }
