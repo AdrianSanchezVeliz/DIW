@@ -1,0 +1,84 @@
+.container{
+
+  display: flex; flex-direction: column;
+
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 2rem;
+  font-family: Arial;
+
+}
+
+/*Ejercicio 1*/
+.caja1 {
+
+  transition: all 0.5s ease;
+}
+
+.desplazamiento:hover+.caja1 {
+
+  transform: translate(400px, 200px)
+}
+
+/*Ejercicio 2*/
+
+.caja2 {
+
+  transition: all 1s ease;
+
+}
+
+.escala:hover+.caja2 {
+
+  transform: scaleX(3.5);
+
+}
+
+/*Ejercicio 3*/
+
+.caja3 {
+
+  transition: all 1.5s ease;
+
+}
+
+.sesgado:hover+.caja3 {
+
+  transform: skew(-45deg, 15deg);
+}
+
+/*Ejercicio 4*/
+
+.caja4 {
+
+  transition: all 2s ease;
+
+}
+
+.rotacion:hover+.caja4 {
+
+  transform: rotateZ(180deg);
+
+}
+
+/*Ejercicio 5*/
+
+.caja5 {
+
+  transition: all 2.5s ease;
+
+}
+
+.combinacion:hover+.caja5 {
+
+  transform: rotateZ(45deg) scale(120%) translate(400px, -600px)
+}
