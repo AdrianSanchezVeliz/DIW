@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Usabilidad en las imágenes</title>
+<style>
+    /* le he añadido un fondo y le he hecho mas grande la letra */
+body {
+font-family: 'Times New Roman', Times, serif;
+font-size: 24px;
+max-width: 800px;
+margin: 0 auto;
+background-color: #6afcd5;
+color: #000000;
+}
+.image-container {
+margin: 20px 0;
+}
+/* he hecho la imagen mas grande */
+.image-container img {
+width: 500px;
+height: auto;
+}
+/* le he puesto otra imagen de fondo */
+.background-image {
+background-image:url(./hielo.jpg);
+background-size: cover;
+height: 300px;
+padding: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Usabilidad en las imágenes</h1>
+<p>Imagen no optimizada para la web y sin etiqueta alt descriptiva:</p>
+<div class="image-container">
+    <!-- le he puesto un alt descriptivo -->
+<img src="https://www.eniun.com/wp-content/uploads/Curso-Visual-Studio-Code.png" alt="una persona con un ordenador ">
+</div>
+<p>Texto y fondo con poco contraste:</p>
+<div class="background-image">
+<p>Texto sobre una imagen de fondo que es difícil de leer.</p>
+</div>
+</body>
+</html>

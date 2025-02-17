@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0;
+    /* he cambiado el color de los textos de gris a negro */
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    /* le he subido el tamaño a los textos */
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    /* los h los he cambiado de tamaño ya que estaban mas pequeños de lo recomendable */
+    h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    }
+    h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    }
+    h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    }
+    h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    }
+    p {
+  /* le he puesto espaciado equivalente al tamaño de la fuente */
+    margin-bottom: 1em;
+
+    }
+    .content-box {
+    background-color: #999999;
+    /* le he cambiado el color del texto d gris a negro */
+    color: #000000;
+    padding: 10px;
+    margin: 20px 0;
+    }
+    a {
+    color: #0000ff;
+    }

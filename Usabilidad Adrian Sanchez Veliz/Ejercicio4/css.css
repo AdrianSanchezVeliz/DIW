@@ -1,0 +1,50 @@
+/* centrado de textos, subtitulos y espaciados */
+
+.container h2{
+
+margin-top: 20px;
+text-align: center;
+
+}
+
+.container h1{
+
+
+    text-align: center;
+    
+    }
+
+.container p{
+
+padding-top: 10px;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+
+/* espaciado de menu y centrado*/
+.navigation a{
+padding: 15px;
+
+}
+
+.navigation{
+
+    text-align: center;
+
+}
+
+/* espaciado para que la tabla sea legible, centrada y ademas le he puesto borde de color azul y redondeado*/
+
+th , td{
+padding: 20px;
+border: solid 2px blue;
+border-radius: 10px;
+}
+table{
+display: flex;
+justify-content: center;
+
+
+}
