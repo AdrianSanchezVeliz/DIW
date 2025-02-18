@@ -1,0 +1,51 @@
+
+.navbar {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: blue;
+    }
+
+    .menu li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu a {
+        padding: 20px;
+        border-bottom: 1px solid blue;
+    }
+}
